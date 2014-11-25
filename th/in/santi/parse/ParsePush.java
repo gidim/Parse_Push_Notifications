@@ -84,8 +84,7 @@ public class ParsePush {
 	}
 
 	public void send() {
-		System.out.println(json.toString());
-		// send(null);
+		send(null);
 	}
 
 	public void send(final ParsePushCallback callback) {
