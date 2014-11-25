@@ -12,7 +12,7 @@ public class Example {
         Parse.initialize(APP_ID, API_KEY);
         ParsePush p = new ParsePush();
         p.setMessage("Hello World");
-        p.setObjectId("MbXIxd5Xxr");
+        p.setObjectId("123");
         p.send();
     }
 }
