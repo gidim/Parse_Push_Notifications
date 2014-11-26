@@ -9,7 +9,7 @@ import th.in.santi.parse.constants.ParseConstants;
  */
 public class Example {
     public static void main(String[] args) {
-        Parse.initialize(Application_ID, Client_Key);
+        Parse.initialize(Application_ID, REST_API_Key); //goto Settings >> Keys 
         ParsePush p = new ParsePush();
         p.setMessage("Hello World");
         p.setObjectId("123");
