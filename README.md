@@ -1,4 +1,4 @@
-Parse_Push_Notifications
+Parse Push Notifications
 ========================
 
-A Simple Java API for https://www.parse.com
+A Simple Java library for https://www.parse.com
